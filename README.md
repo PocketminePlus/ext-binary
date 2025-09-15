@@ -1,6 +1,7 @@
 # ext-binary
 A high performance C++ PHP extension designed to be a drop in replacement for Pocketmine's native binary-utils library.
 Providing an average improvement of 3x faster execution for binary related tasks, while retaining 100% api compatibility, no need to modify Pocketmine source code. (No FFI!)
+While superceeded by Pocketmine's new Encoding extension, this extension provides a direct port of the PHP version of binary utils.
 
 ## Benchmarks
 Performance comparison with 15,000 itterations, ran on a 13th Gen i7.
