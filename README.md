@@ -35,9 +35,9 @@ The test file can be found in ./tests
 ## Building
 To build the extension for Pocketmine's php binaries, follow these steps.
 ```
-EXT_BINARY_VERSION="1.0.0" // Github tagged version, add near other ext version constants
+EXT_BINARY_VERSION="1.0.0" 
 
-get_github_extension "binary" "$EXT_BINARY_VERSION" "xsuperr" "ext-binary" // Github account & repo name, add under other ext github fetches
+get_github_extension "binary" "$EXT_BINARY_VERSION" "pocketmineplus" "ext-binary"
 
 --enable-binary // Add to the ./configure command as an argument
 ```
