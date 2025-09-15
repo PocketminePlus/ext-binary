@@ -3,7 +3,7 @@
 extern "C" {
 #include "php.h"
 #include "zend_exceptions.h"
-#include "../ext-binary_arginfo.h"
+#include "ext-binary_arginfo.h"
 }
 
 // Class entry for Limits
